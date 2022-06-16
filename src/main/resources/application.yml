@@ -1,0 +1,10 @@
+
+spring:
+  application:
+    name: telegram-rest
+  datasource:
+    platform: postgresql
+    driverClassName: org.postgresql.Driver
+    url: ${POSTGRESQL_CONNECT_STRING:jdbc:postgresql://queenie.db.elephantsql.com:5432/jrzepwnm}
+    username: ${POSTGRESQL_USERNAME:jrzepwnm}
+    password: ${POSTGRESQL_PASSWORD:Jo1n5A6fYZiUPAwXHbzu4qVBTL0DZQ4z}
